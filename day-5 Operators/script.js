@@ -147,6 +147,59 @@ let hasToken = false;
 let access = loggedIn && hasToken ? "Allow" : "Deny";
 console.log(access);
 
+//String Opr
+console.log("String Operator")
+
+let firstName = "Alok";
+let lastName = "Gupta";
+console.log(firstName + " " + lastName);  // Alok Gupta
+
+let name = "Alok";
+names += " Gupta";
+console.log(names); // Alok Gupta
+
+//Optional Chaining opr
+console.log("Optional chaining operator")
+
+let user = {
+    profile: {
+        name: "Alok"
+    }
+};
+console.log(user.profile?.name); // Alok
+console.log(user.address?.city); // undefined
+
+//in operator
+console.log("in Operator")
+
+let users = {
+    name: "Alok",
+    age: 23
+};
+console.log("name" in users); // true
+console.log("city" in users); // false
+
+//Comma Operator
+console.log("Comma Operator")
+
+let results = (1 + 2, 3 + 4);
+console.log(results); // 7
+
+//Spread Operator
+console.log("Spread Operator")
+
+let arr1 = [1, 2, 3];
+let arr2 = [...arr1, 4, 5];
+console.log(arr2); // [1, 2, 3, 4, 5]
+
+//Rest Operator
+console.log("Rest Operator")
+
+function sum(...numbers) {
+    return numbers;
+}
+console.log(sum(10, 20, 30)); // [10, 20, 30]
+
 //Instance of: Works on Refference values
 console.log("Instance of");
 let arr = [];
