@@ -69,6 +69,6 @@ console.log(typeof NaN); //number
 console.log("5" + 1)   //Concatination
 console.log("5" - 1)   //Subtract
 
-//Falsy values: 0, Null, undefined, document.all, false, NaN
+//Falsy values: 0, -0, 0n, Null, undefined, document.all, false, NaN
 console.log(!!null)
 console.log(!!0)
