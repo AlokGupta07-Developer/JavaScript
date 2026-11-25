@@ -8,6 +8,7 @@ console.log(d);
 d = 24;
 console.log(d);
 console.log(e);
+
 // String, Number, Boolean, null, undefined, bigInt
 
 //1. String:
@@ -59,6 +60,7 @@ f = {};
 //type of quirks: To check the DataType
 console.log(typeof "Alok");
 console.log(typeof 12);
+
 //Failed number operations:
 console.log(typeof null); // object
 console.log(typeof []); // object

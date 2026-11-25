@@ -36,7 +36,7 @@ function getGrade(score) {
   if (score >= 0 && score <= 32) return "Fail";
   return "Invalid marks";
 }
-console.log(getGrade(-3));
+console.log(getGrade(60));
 
 //Switch case
 console.log("Switch case:-");
